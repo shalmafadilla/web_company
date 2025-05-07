@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: poppins;
+}
+
+main {
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/*main section */
+.main-section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 25px;
+  color: rgb(134, 134, 134);
+}
+
+.foto {
+  width: 50%;
+  float: right;
+}
+
+.aboutme {
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 0px;
+  background: #FFC9DD;
+  width: 75%;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  color: rgb(134, 134, 134);
+}
+
+/* section others */
+.others {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  background-color: #FFC9DD;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  gap: 50px;
+}
+
+.bio {
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.field {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.box {
+  text-align: left;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(134, 134, 134);
+}
+
+.list-music {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-music > li {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.button {
+  display: block;
+  background-color: #ffe7f0;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #ffc3d9;
+}
+
+footer{
+  text-align: center;
+  background-color: #FFC9DD;
+  margin-top: 30px;
+  padding: 20px 0px;
+  color: rgb(134, 134, 134);
+}

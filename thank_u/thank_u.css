@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 300px;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: poppins;
+}
+
+input {
+    margin-bottom: 225px;
+  background-color: #ffe7f0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+input:hover {
+  background-color: #ffc3d9;
+}
+
+footer{
+    text-align: center;
+    background-color: #FFC9DD;
+    margin-top: 30px;
+    padding: 20px 0px;
+  }
